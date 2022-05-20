@@ -1,0 +1,26 @@
+/*** GENERAL ***/
+:root {
+  --bs-primary: #d900ff;
+  --bs-secondary: #0f0f0f;
+  --bs-primary-rgb: 217, 0, 255;
+  --bs-secondary-rgb: 15, 15, 15;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'DM Sans', sans-serif;
+  background-color: #ffffff;
+  color: #ddd;
+}
+
+.vc-container {
+  width: 95vw !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--bs-primary) !important;
+}
+
+/* .text_primary {
+  color: var(--bs-primary) !important;
+} */
