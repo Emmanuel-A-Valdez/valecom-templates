@@ -10,7 +10,7 @@ body {
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'DM Sans', sans-serif;
   background-color: #ffffff;
-  color: #ddd;
+  color: var(--bs-secondary);
 }
 
 .vc-container {
@@ -18,9 +18,15 @@ body {
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--bs-primary) !important;
+  border-bottom: 2px solid var(--bs-primary) !important;
 }
 
 /* .text_primary {
   color: var(--bs-primary) !important;
 } */
+
+/*** NAVBAR ***/
+.navbar-icons {
+  height: 1.2rem;
+  width: auto;
+}
