@@ -1,6 +1,6 @@
 /*** GENERAL ***/
 :root {
-  --bs-primary: #d900ff;
+  --bs-primary: rgb(217, 0, 255);
   --bs-secondary: #0f0f0f;
   --bs-primary-rgb: 217, 0, 255;
   --bs-secondary-rgb: 15, 15, 15;
@@ -22,7 +22,6 @@ body {
 
 .border-top {
   border-top: 1px solid var(--bs-primary) !important;
-
 }
 
 .btn-primary {
@@ -45,10 +44,25 @@ body {
   border: var(--bs-secondary) 1px solid;
 }
 
+.btn-outline-primary {
+  color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+.btn-outline-primary:hover {
+  background-color: #fff;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
 /*** NAVBAR ***/
 .navbar-icons {
   height: 1.2rem;
   width: auto;
+}
+
+.nav-link:hover {
+  color: var(--bs-primary) !important;
 }
 
 /*** SHOWCASE ***/
@@ -70,7 +84,7 @@ body {
 
 /*** CAROUSEL ***/
 .swiper-pagination-bullet-active {
-  background-color: var(--bs-primary)
+  background-color: var(--bs-primary);
 }
 
 .fa,
@@ -83,7 +97,7 @@ body {
 }
 
 .checked {
-  color: var(--bs-primary)
+  color: var(--bs-primary);
 }
 
 .rating {
@@ -93,6 +107,12 @@ body {
 /*** CONTENT IMAGE WITH TEXT ***/
 .section-image {
   max-height: 700px;
+}
+
+/*** Footer ***/
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.15rem rgba(217, 0, 255, 0.35);
 }
 
 @media (max-width: 768) {
