@@ -170,10 +170,11 @@ body {
   height: 110px;
 }
 
-.product-thumbnail {
+.thumbnail {
   margin-top: 10px;
   margin-right: 10px;
   max-height: 100px;
+  cursor: pointer;
 }
 
 .product-form {
@@ -184,8 +185,6 @@ body {
 .product-form-divider {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
-
-.product-description {}
 
 .product-size-container {
   margin-top: 1rem;
@@ -219,6 +218,14 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 2.8rem;
+}
+
+#description {
+  display: none;
+}
+
+#shipping {
+  display: none;
 }
 
 /*** Footer ***/
